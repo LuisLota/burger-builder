@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Toolbar from './Navigation/Toolbar/Toolbar';
 import SideDrawer from './Navigation/SideDrawer/SideDrawer';
 
-import Aux from '../../hoc/Auxillity';
+import Aux from '../../hoc/Auxillity/Auxillity';
 import classes from './Layout.css';
 
 class Layout extends Component {
