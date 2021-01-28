@@ -12,11 +12,9 @@ import Spinner from '../../components/UI/Spinner/Spinner';
 import Aux from '../../hoc/Auxillity/Auxillity';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 
-class BurgerBuilder extends Component {
+ export class BurgerBuilder extends Component {
 	state = {
 		purchasing: false
-		// loading: false,
-		// error: false
 	};
 
 	componentDidMount() {
